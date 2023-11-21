@@ -6,6 +6,7 @@ int main() {
     vector<pair<int,int>>:: iterator it;
     for(it=vp.begin(); it!=vp.end(); ++it){
         cout << (*it);
+        printf("hello");
     }
 
     return 0;
